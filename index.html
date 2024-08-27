@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/letra-i.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portfólio Responsivo - Igor Ximenes</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+           <a href="#" class="nav__logo">Ximenes</a>
+
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+
+                 <li>
+                    <a href="#home" class="nav__link active-link">Home</a>
+                 </li>
+
+                 <li>
+                    <a href="#work" class="nav__link">Recent Works</a>
+                 </li>
+
+                 <li>
+                    <a href="#info" class="nav__link">About me</a>
+                 </li>
+
+                 <li>
+                    <a href="#services" class="nav__link">Experience</a>
+                 </li>
+
+                 <li>
+                    <a href="#contact" class="nav__link">Contact me</a>
+                 </li>
+              </ul>
+
+              <!-- Close Button -->
+               <div class="nav__close" id="nav-close">
+                 <i class="ri-close-large-line"></i>
+               </div>
+           </div>
+
+              <!-- Toggle Button -->
+               <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line"></i>
+               </div>
+        </nav>
+     </header>
+    
+    <!--==================== MAIN ====================-->
+    <main class="main">
+       <!--==================== HOME ====================-->
+       <section class="home section" id="home">
+        <div class="home__container container grid">
+            <img src="assets/img/FotoPerfil-removebg.png" alt="image" class="home__img">
+
+            <div class="home__data">
+                <h1 class="home__name">Igor <br> Ximenes</h1>
+                <h3 class="home__profession">Web Developer</h3>
+            </div>
+
+            <a href="#work" class="home__scroll">
+                <div class="home__scroll-box">
+                    <i class="ri-arrow-down-line"></i>
+                </div>
+
+                <span class="home__scroll-text">Recent Works</span>
+            </a>
+        </div>
+       </section>
+
+       <!--==================== WORKS ====================-->
+       <section class="work section" id="work">
+         <h2 class="section__title">RECENT WORKS</h2>
+
+         <div class="work__container container grid">
+            <article class="work__card">
+               <a href="#" target="_blank" class="work__link">
+                  <h2 class="work__title">Medical Clinic API</h2>
+                  <p class="work__description">
+                     This project is a REST API developed for the Voll Med medical clinic, using the Java Spring Boot framework. With it, you can create, read, update and delete,
+                      operations to manage information related to the medical clinic. the front end is still under construction!
+                  </p>
+
+                  <img src="assets/img/work-3.jpg" alt="image" class="work__img">
+
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work__card">
+               <a href="#" target="_blank" class="work__link">
+                  <h2 class="work__title">Se Mexe Comigo API</h2>
+                  <p class="work__description">
+                     The solution developed consists of developing a nationally scalable application, using React, Html, CSS and JavaScript, which, 
+                     through sharing physical activities and creating and publicizing sporting events, allows the population to invest in maintaining social well-being.
+                  </p>
+
+                  <img src="assets/img/work-2.jpg" alt="image" class="work__img">
+
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work__card">
+               <a href="#" target="_blank" class="work__link">
+                  <h2 class="work__title">Taskify Back End</h2>
+                  <p class="work__description">
+                     Development of the back end of the Taskify web application with Spring Boot, creating a REST API. Users can organize tasks and projects by genre, priority, 
+                     and status, using Data Transfer Objects (DTOs) to improve communication.
+                  </p>
+
+                  <img src="assets/img/work-1.jpg" alt="image" class="work__img">
+
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work__card">
+               <a href="#" target="_blank" class="work__link">
+                  <h2 class="work__title">Blog Back End</h2>
+                  <p class="work__description">
+                     I developed a Back-End for a Blog using Java Spring Boot, implementing a REST API. The project allows the creation, reading, 
+                     updating and deletion of posts, in addition to supporting comments and user authentication.
+                  </p>
+
+                  <img src="assets/img/work-4.jpg" alt="image" class="work__img">
+
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work__card">
+               <a href="#" target="_blank" class="work__link">
+                  <h2 class="work__title">PROJECT FIVE...</h2>
+                  <p class="work__description">
+                     wait, there are programmers working here!
+                  </p>
+
+                  <img src="assets/img/work-5.jpg" alt="image" class="work__img">
+
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+         </div>
+       </section>
+
+       <!--==================== INFO ====================-->
+       <section class="info section" id="info">
+         <h2 class="section__title">MY INFO</h2>
+
+         <div class="info__container container grid">
+            <!-- ABOUT -->
+             <div class="about grid">
+               <div class="about__content">
+                  <h3 class="info__title">About Me</h3>
+                  <p class="about__description">
+                     My name is Igor Ximenes and I'm excited to share with you my passion for <b>the world of programming</b>. 
+                     As an aspiring IT professional, 
+                     I am looking for opportunities in <b>Web Development</b> to take the first steps in my career.
+                  </p>
+
+                  <a href="assets/pdf/Currículo Atualizado 4º período.pdf" download="" target="_blank" class="button about__button">Download CV</a>
+               </div>
+
+               <img src="assets/img/FotoPerfil-removebg.png" alt="image" class="about__img">
+             </div>
+             <!-- Experience -->
+             <div class="experience">
+               <h3 class="info__title">Experience</h3>
+
+               <div class="experience__content grid">
+                  <div class="experience__data grid">
+                     <h2 class="experience__company">Porto Digital / CFIT HealthTech</h2>
+
+                     <div>
+                        <h3 class="experience__profession">Web Developer Temporary</h3>
+                        <span class="experience__date">02/24 - 06/24</span>
+                        <p class="experience__description">
+                           During this period of the Porto Digital Rise UP 2024.1 residency, 
+                           my squad and I were responsible for the creation and development of the "Se Mexe Comigo" project proposed by the company CFIT Healthtech Analytics. 
+                           <b>I was responsible for prototyping, code versioning and conflict resolution.</b>
+
+                        </p>
+                     </div>
+                     
+                  </div>
+
+                  <div class="experience__data grid">
+                        <h2 class="experience__company">Porto Digital / AquaAlert</h2>
+   
+                        <div>
+                           <h3 class="experience__profession">Web Developer Temporary</h3>
+                           <span class="experience__date">08/23 - 11/23</span>
+                           <p class="experience__description">
+                              I developed an <b>innovative navigable prototype</b> with the purpose of promoting awareness, 
+                              providing education and empowering communities to deal with the adversities of heavy rains that frequently ravage the metropolitan region of Recife.
+                           </p>
+                        </div>
+                        
+                  </div>
+
+                  <div class="experience__data grid">
+                           <h2 class="experience__company">Treina Recife</h2>
+      
+                           <div>
+                              <h3 class="experience__profession">Junior Java Developer</h3>
+                              <span class="experience__date">07/23 - 09/23</span>
+                              <p class="experience__description">
+                                 Simulation of a business environment, where I went through
+                                 experience of being a junior developer and learned
+                                 <b>Scrum, Kanban, GitHub and Trello.</b>
+                              </p>
+                           </div>                           
+                        </div>
+                     </div>                 
+                  </div>                                    
+             <!-- SKILLS -->
+             <div class="skills">
+               <h3 class="info__title">Skills</h3>
+
+               <div class="skills__content grid">
+
+                  <div class="skills__box">
+                     <img src="assets/img/html.png" alt="image" class="skills__img">
+                     <span class="skills__name">HTML</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/css.png" alt="image" class="skills__img">
+                     <span class="skills__name">CSS</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/javascript.png" alt="image" class="skills__img">
+                     <span class="skills__name">JavaScript</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/figma.png" alt="image" class="skills__img">
+                     <span class="skills__name">Figma</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/github (2).png" alt="image" class="skills__img">
+                     <span class="skills__name">GitHub</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/Qlik.png" alt="image" class="skills__img">
+                     <span class="skills__name">Qlik</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/SpringBoot.png" alt="image" class="skills__img">
+                     <span class="skills__name">SpringBoot</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/mysql.png" alt="image" class="skills__img">
+                     <span class="skills__name">MySQL</span>
+                  </div>
+
+                  <div class="skills__box">
+                     <img src="assets/img/java.png" alt="image" class="skills__img">
+                     <span class="skills__name">Java</span>
+                  </div>
+
+               </div>
+             </div>             
+         </div>
+       </section>
+
+       <!--==================== SERVICES ====================-->
+       <section class="services section" id="services">
+         <h2 class="section__title">SERVICES</h2>
+
+         <div class="services__container container grid">
+            <article class="services__card">
+               <i class="ri-code-box-line services__icon"></i>
+               <h3 class="services__title">Web Development</h3>
+               <p class="services__description">
+                  Custom-built websites that are responsive and tailored to your business needs.
+               </p>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-pencil-ruler-2-line services__icon"></i>
+               <h3 class="services__title">Web Design</h3>
+               <p class="services__description">
+                  Creative and user-friendly designs that enhance user experience and reflect your brand's identity.
+               </p>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-terminal-box-line services__icon"></i>
+               <h3 class="services__title">Back End Development</h3>
+               <p class="services__description">
+                  Robust back-end solutions that ensure your website runs smoothly and efficiently.
+               </p>
+            </article>
+
+            <article class="services__card">
+               <i class="ri-database-2-line services__icon"></i>
+               <h3 class="services__title">DataBase Development</h3>
+               <p class="services__description">
+                  Reliable database architectures designed to manage and organize your data securely.
+               </p>
+            </article>
+
+         </div>
+       </section>
+
+       <!--==================== CONTACT ====================-->
+       <section class="contact section" id="contact">
+         <h2 class="section__title">CONTACT ME</h2>
+
+         <div class="contact__container container grid">
+            <form action="" class="contact__form grid" id="contact-form">
+               <div class="contact__group grid">
+                  <input type="text" name="user_name" placeholder="Names" class="contact__input">
+                  <input type="email" name="user_email" placeholder="Email" class="contact__input">
+               </div>
+
+               <textarea name="user_message" placeholder="Message" required class="contact__input contact__area"></textarea>
+
+               <button type="submit" class="button contact__button">Send Message</button>
+
+               <p class="contact__message" id="contact-message"></p>
+            </form>
+
+            <div class="contact__social grid">
+               <a href="https://www.github.com/igorrxz" target="_blank" class="contact__social-link">
+                  <i class="ri-github-fill"></i>
+                  <span>GitHub</span>
+               </a>
+
+               <a href="https://www.linkedin.com/in/igor-ximenes-de-oliveira-rocha-84859226b/" target="_blank" class="contact__social-link">
+                  <i class="ri-linkedin-box-fill"></i>
+                  <span>Linkedin</span>
+               </a>
+
+               <a href="https://www.instagram.com/igoor_xima/" target="_blank" class="contact__social-link">
+                  <i class="ri-instagram-line"></i>
+                  <span>instagram</span>
+               </a>
+            </div>
+         </div>
+       </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+         <ul class="footer__links">
+            <li>
+               <a href="#home" class="footer__link">Home</a>
+            </li>
+
+            <li>
+               <a href="#work" class="footer__link">Work</a>
+            </li>
+
+            <li>
+               <a href="#info" class="footer__link">Info</a>
+            </li>
+         </ul>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved by Igor Ximenes
+         </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
